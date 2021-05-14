@@ -116,7 +116,7 @@ const Mentor = ({ match }) => {
             </>
           )}
           {!checkUnassignedStudents() && (
-            <p>Currently there is no unassigned students</p>
+            <p>Currently there are no unassigned students</p>
           )}
         </div>
       </div>
