@@ -1,0 +1,147 @@
+/* Global Styles */
+
+body {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.button {
+  height: 35px;
+  font-weight: bold;
+  width: 9rem;
+  margin: 5px;
+  border: 0;
+  border-radius: 0.25rem;
+  font-size: 14px;
+  background-color: #0dba4b;
+  cursor: pointer;
+  color: white;
+}
+
+.button-sm {
+  min-width: 4rem;
+  width: fit-content !important;
+  height: fit-content;
+  padding: 10px;
+}
+
+/* Intro section styles */
+
+.intro-section {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #141414;
+  text-align: center;
+}
+
+/* Container */
+
+.sub-container {
+  text-align: center;
+}
+
+.card-wrapper {
+  padding: 5px !important;
+}
+
+.student-row > .card-wrapper .card {
+  background-color: white !important;
+  border: 2px solid #0dba4b;
+  color: #212529;
+}
+
+.card {
+  min-height: 100px;
+  max-height: 100px;
+  cursor: pointer;
+  background-color: #0dba4b !important;
+  color: white;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Form */
+
+.form-wrapper {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .form-wrapper {
+    width: 100%;
+  }
+}
+
+/* Mentor page */
+
+.mentor-container {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0dba4b;
+  margin-top: 100px;
+  box-shadow: 0 0 15px 0 #aaa;
+  border-radius: 12px;
+}
+
+.mentor-inner {
+  text-align: center;
+}
+
+.unassigned-wrapper {
+  padding: 5px !important;
+}
+
+.unassigned-students {
+  height: 50px;
+  display: grid;
+  place-items: center;
+  border: 2px dashed #0dba4b;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.add-bg-color {
+  border: 0;
+  background-color: #0dba4b;
+  color: white;
+  font-weight: bold;
+}
+
+.available-mentor {
+  height: 50px;
+  padding: 10px;
+  margin: 0 5px;
+  display: grid;
+  place-items: center;
+  border: 2px dashed #0dba4b;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .mentor-container {
+    margin-top: 20px;
+  }
+}
